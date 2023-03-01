@@ -12,15 +12,21 @@ const bankContractAbi = abiFileParsed.abi;
 
 // TODO: set up the WSS provider (note that we use HTTP for deployment)
 // https://docs.ethers.org/v5/api/providers/other/#WebSocketProvider
-const provider = new ethers.providers.WebSocketProvider();
+const provider = new ethers.providers.WebSocketProvider(
+
+);
 
 // TODO: set up the signer
 // https://docs.ethers.org/v5/api/signer/#Wallet-constructor
-const signer = new ethers.Wallet();
+const signer = new ethers.Wallet(
+
+);
 
 // TODO: set up the contract with a signer since we will be writing to the contract
 // https://docs.ethers.org/v5/api/contract/contract/#Contract--creating
-const bankContract = new ethers.Contract();
+const bankContract = new ethers.Contract(
+  
+);
 
 async function main() {
   // Sending arguments to a contract function call is done as you would expect
