@@ -1,0 +1,22 @@
+{
+  "name": "bank",
+  "version": "0.0.1",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kethic",
+  "license": "mine",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.7"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat-contract-sizer": "^2.8.0"
+  }
+}
